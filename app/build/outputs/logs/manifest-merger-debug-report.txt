@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:3:1-30:12
+	package
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:7:22-63
+uses-sdk
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\.android\build-cache\16c13235674b4783ce63f3b5397682689e6d1aac\output\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_SMS
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:12:22-69
+application
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:14:5-28:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\.android\build-cache\16c13235674b4783ce63f3b5397682689e6d1aac\output\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:16:9-45
+	android:theme
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.mzhq.phonesms.MainActivity
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:20:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from F:\Android\GetPhoneSMS1\app\src\main\AndroidManifest.xml:25:27-74

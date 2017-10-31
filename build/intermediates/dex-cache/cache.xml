@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\Android\GetPhoneSMS1\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3_fff5ba9dcfc3fb927efe66bf6ce29e1891a7463e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\16c13235674b4783ce63f3b5397682689e6d1aac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\Android\GetPhoneSMS1\app\build\intermediates\pre-dexed\release\classes_1406aea9b2d2e47664ed086a273832d9fe7178e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\16c13235674b4783ce63f3b5397682689e6d1aac\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\Android\GetPhoneSMS1\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3_1a186892e9e1c7261bf16ae05284bdbc1e8f9ef0.jar" />
+    </item>
+
+</items>

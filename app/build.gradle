@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        configer {
+            keyAlias 'key1'
+            keyPassword '123456'
+            storeFile file('F:/key/key1.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.mzhq.phonesms"
+        minSdkVersion 8
+        targetSdkVersion 17
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.configer
+        }
+        debug {
+            signingConfig signingConfigs.configer
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+}
