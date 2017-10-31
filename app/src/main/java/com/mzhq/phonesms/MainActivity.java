@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 			public void run()
 			{
 				getSmsInPhone();
-				GetCallsInPhone();
+
 			}
 		}.start();
 	}
@@ -109,52 +109,7 @@ public class MainActivity extends Activity {
 	    }
 	}
 	
-	private void GetCallsInPhone()
-	{
-		Cursor cursor = getContentResolver().query(Calls.CONTENT_URI,
-			    new String[] { Calls.DURATION, Calls.TYPE, Calls.DATE, Calls.NUMBER },
-			    null,
-			    null,
-			    Calls.DEFAULT_SORT_ORDER);
-			MainActivity.this.startManagingCursor(cursor);
-			boolean hasRecord = cursor.moveToFirst();
-			long incoming = 0L;
-			long outgoing = 0L;
-			int count = 0;
-			String strPhone = "";
-			String date;
 
-			while (hasRecord) {
-			    int type = cursor.getInt(cursor.getColumnIndex(Calls.TYPE));
-			    long duration = cursor.getLong(cursor.getColumnIndex(Calls.DURATION));
-			    strPhone = cursor.getString(cursor.getColumnIndex(Calls.NUMBER));
-			    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-                Date d = new Date(Long.parseLong(cursor.getString(cursor.getColumnIndex(Calls.DATE))));
-                date = dateFormat.format(d);
-
-
-                Message msg = mHandler.obtainMessage(1);
-                Bundle b = new Bundle();// 存放数据
-                b.putString("phone", strPhone);
-                b.putString("date", date);
-                b.putLong("time", duration);
-                msg.setData(b);
-                msg.sendToTarget();
-
-			    switch (type) {
-			        case Calls.INCOMING_TYPE:
-			            incoming += duration;
-			            break;
-			        case Calls.OUTGOING_TYPE:
-			            outgoing += duration;
-			        default:
-			            break;
-			    }
-			    count++;
-			    hasRecord = cursor.moveToNext();
-			}
-
-	}
 
 	public Handler mHandler = new Handler() {
 		  @Override  
